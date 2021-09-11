@@ -1,0 +1,30 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(7, 6, 6);
+  background-color: transparent;
+  border: 1px solid grey;
+  outline: 0;
+  padding: 8px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 500;
+  user-select: none;
+}
+
+.button:hover {
+  background-color: rgba(18, 32, 224, 0.8);
+  color: #fff;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.list:not(:last-child) {
+  margin-right: 15px;
+}
